@@ -11,11 +11,10 @@ function Portafolio() {
     <div>
       <NavBar/>
       <AcercaDeMi />
-      <Proyectos />
+      {/* <Proyectos />
       <Servicios />
-      <img src="https://res.cloudinary.com/academia-geek/image/upload/v1630901117/samples/FotosPersonales/img_ox5yiu.png" alt="" />
       <Contacto />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }

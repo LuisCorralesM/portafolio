@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../style/acercaDe.css'
 
 class AcercaDeMi extends Component{
     render(){
@@ -6,12 +7,12 @@ class AcercaDeMi extends Component{
             <main>
                 <div className="contenedor">
                     <div className="grid-acercaDeMi">
-                        <div className="col-descrip-perfil">
-                            <h1 className="saludo-bienvenida">¡Hola a todos! <br/> Soy Luis Corrales</h1>
-                            <p className="mensaje-bienvenida">Frontend Developer apasionado por la programación.<br/> ¡ven y échale un vistazo a mis proyectos!</p>
-                        </div>
                         <div className="col-foto">
-                            <img src="https://res.cloudinary.com/academia-geek/image/upload/v1630895488/samples/FotosPersonales/foto-portafolio_dugzzt.png" alt="" />
+                            <img src="https://res.cloudinary.com/academia-geek/image/upload/v1635394242/me_lafr5f.png" alt="" />
+                        </div>
+                        <div className="col-descrip-perfil">
+                            <h1 className="nombre-programador">Luis Corrales</h1>
+                            <p className="profesion-programador">Frontend Developer</p>
                         </div>
                     </div>
                 </div>

@@ -1,0 +1,29 @@
+
+.nombre-programador{
+    font-size: 40px;
+    font-weight: 900;
+    padding-top: 50px;
+    text-align: center;
+    text-shadow: -1px -1px 8px rgb(0, 0, 0), 4px 4px 4px rgb(0, 0, 0);
+}
+
+.profesion-programador{
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+    text-shadow: -1px -1px 8px rgb(0, 0, 0), 4px 4px 4px rgb(0, 0, 0);
+}
+
+.col-foto{
+    text-align: center;
+}
+
+.col-foto img{
+    margin-top: 50px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px #000, -2px -2px 2px #fff;
+}

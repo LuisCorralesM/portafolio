@@ -1,16 +1,28 @@
-import React, { Component } from 'react'
+import React from 'react'
+import '../style/proyectos.css'
+import proyectos from '../data/proyectos.json'
+export const Proyectos = () => {
 
-export default class Proyectos extends Component {
-    render() {
-        return (
-            <div className="content-proyect">
-                <div className="img-proyect1">
-                    <img src="https://res.cloudinary.com/academia-geek/image/upload/v1630896366/samples/FotosPersonales/proyect2_tsyoug.png" alt="" />
+    return (
+        <div className="content-proyect" id="proyectos">
+            <h1 className="titulo-proyectos">Proyectos</h1>
+            {/* proyecto 1 */}
+            {proyectos.map((pro, i) => (
+                <div key={i} className="contenedor-proyectos">
+                    <h2 className="nombre-proyecto">{pro.nombre}</h2>
+                    <a href={pro.enlace} className="contenr-proyecto1" target="_blank" rel="noopener noreferrer">
+                        <div >
+                            <img className="img-proyect1" src={pro.imagen} alt="" />
+                        </div>
+                        <div className="descripcion-proyecto">
+                            <h1 className="titulo-proyecto1">{pro.encabezado}</h1>
+                            <p className="descripcion-proyecto1">{pro.descripcion}</p>
+                        </div>
+                    </a>
                 </div>
-                <div className="img-proyect1">
-                    <img src="https://res.cloudinary.com/academia-geek/image/upload/v1630896358/samples/FotosPersonales/proyect1_gnvb2d.png" alt="" />
-                </div>
-            </div>
-        )
-    }
+
+            ))
+            }
+        </div>
+    )
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from '../components/NavBar';
 import AcercaDeMi from '../components/AcercaDeMi'
-import Proyectos from '../components/Proyectos';
+import {Proyectos} from '../components/Proyectos';
 import Servicios from '../components/Servicios';
 import Contacto from '../components/Contacto';
 import Footer from '../components/Footer';
@@ -11,10 +11,10 @@ function Portafolio() {
     <div>
       <NavBar/>
       <AcercaDeMi />
-      {/* <Proyectos />
+      <Proyectos />
       <Servicios />
-      <Contacto />
-      <Footer /> */}
+      {/* <Contacto /> */}
+      {/* <Footer /> */}
     </div>
   );
 }

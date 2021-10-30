@@ -21,10 +21,18 @@ const Navbar = () => {
                 </div>
                 <nav id="site-nav" className="site-nav">
                     <ul>
-                        <li className="list-item-nav">Proyectos</li>
-                        <li className="list-item-nav">Certificados</li>
-                        <li className="list-item-nav">Contacto</li>
-                        {/* <li className="list-item-nav">Admin</li> */}
+                        <a href="#proyectos">
+                            <li className="list-item-nav">Proyectos</li>
+                        </a>
+                        <a href="#certificados">
+                            <li className="list-item-nav">Certificados</li>
+                        </a>
+                        <a href="#servicios">
+                            <li className="list-item-nav">Servicios</li>
+                        </a>
+                        <a href="#contacto">
+                            <li className="list-item-nav">Contacto</li>
+                        </a>
                     </ul>
                 </nav>
                 <div id="menu-toggle" className="menu-toggle" onClick={(e) => cambiarClase(e)}>

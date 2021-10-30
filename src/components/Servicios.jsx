@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class Servicios extends Component {
     render() {
         return (
-            <div className="contenedor-gird-servicios">
+            <div className="contenedor-gird-servicios" id="servicios">
                 <h2>Servicios</h2>
                 <div className="grid-servicios">
                     <div className="col-diseño">

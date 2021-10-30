@@ -37,7 +37,7 @@ header::after {
     font-size: 35px;
     margin: 0;
     font-weight: 900;
-    text-shadow: -1px -1px 8px rgb(0, 0, 0), 4px 4px 4px rgb(0, 0, 0);
+    color: #000;
 }
 
 .site-nav {
@@ -64,7 +64,8 @@ header::after {
     padding: 0 10px;
     cursor: pointer;
     font-weight: 900;
-    text-shadow: -1px -1px 8px rgb(0, 0, 0), 4px 4px 4px rgb(0, 0, 0);
+    color: #000;
+    text-shadow: -1px -1px 8px rgb(255, 255, 255), 4px 4px 4px rgb(255, 255, 255);
 }
 
 .list-item-nav:hover{
@@ -164,7 +165,7 @@ header::after {
     }
 
     .site-nav li{
-        height: 100px;
+        height: 60px;
         display: flex;
         justify-content: center;
         align-items: center;

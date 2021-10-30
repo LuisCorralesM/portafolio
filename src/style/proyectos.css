@@ -1,0 +1,47 @@
+.contenedor-proyectos{
+    border: 1px solid #000;
+    margin: 20px;
+}
+
+.nombre-proyecto{
+    color: #000;
+    font-weight: 900;
+    text-align: center;
+}
+
+.contenr-proyecto1{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr, 1fr;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.titulo-proyectos{
+    font-size: 30px;
+    font-weight: 900;
+    padding: 0 10px;
+    text-align: center;
+    font-weight: 900;
+    text-shadow: -2px -2px 8px rgb(0, 0, 0), 4px 4px 4px rgb(0, 0, 0);
+}
+
+.img-proyect1{
+    width: 100%;
+}
+
+.titulo-proyecto1{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 0 10px;
+    text-align: center;
+    font-weight: 900;
+    text-shadow: -2px -2px 8px rgb(0, 0, 0), 4px 4px 4px rgb(0, 0, 0);
+}
+
+.descripcion-proyecto1{
+    color: #000;
+}
+

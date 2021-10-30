@@ -1,0 +1,23 @@
+[
+    {
+        "nombre":"Daily Bits",
+        "imagen":"https://res.cloudinary.com/academia-geek/image/upload/v1635530402/app-programacion_uha8nv.png",
+        "encabezado":"Repasa HTML5,CSS3 y JS",
+        "descripcion":" App para repasar conceptos de HTML, CSS3 y JS",
+        "enlace": "luiscorralesm.github.io/daily_bits/"
+    },
+    {
+        "nombre":"Calculaldora",
+        "imagen":"https://res.cloudinary.com/academia-geek/image/upload/v1635536392/calculadora_x5ycub.png",
+        "encabezado":"Calculadora con JS vanilla",
+        "descripcion":"Suma, Resta, Multiplica y Divide usando el teclado",
+        "enlace": "https://luiscorralesm.github.io/Calculadora/"
+    },
+    {
+        "nombre":"HotWheels",
+        "imagen":"https://res.cloudinary.com/academia-geek/image/upload/v1635536695/HOTWEELS_yt1z3y.png",
+        "encabezado":"Dale like a tu favorito",
+        "descripcion":"Si eres un amante de los carros 'HotWheels', dejanos saber con un like cual es tu favorito",
+        "enlace": "https://luiscorralesm.github.io/hotWheelss/"
+    }
+]

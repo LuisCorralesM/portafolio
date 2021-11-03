@@ -1,0 +1,20 @@
+[
+    {
+        "nombre":"Responsive Desing",
+        "imagen":"https://res.cloudinary.com/academia-geek/image/upload/v1635870318/certificados-freedCodeCamp/certificado-responsiveDesing_lgectj.png",
+        "descripcion":"Certificación de desarrollador, que representa aproximadamente 300 horas de cursos",
+        "enlace": "https://www.freecodecamp.org/certification/luis_corrales/responsive-web-design"
+    },
+    {
+        "nombre":"JavasCript",
+        "imagen":"https://res.cloudinary.com/academia-geek/image/upload/v1635870318/certificados-freedCodeCamp/certificado-js_zrxk2a.png",
+        "descripcion":"Certificación de desarrollador, que representa aproximadamente 300 horas de cursos",
+        "enlace": "https://www.freecodecamp.org/certification/luis_corrales/javascript-algorithms-and-data-structures"
+    },
+    {
+        "nombre":"React JS",
+        "imagen":"https://res.cloudinary.com/academia-geek/image/upload/v1635870318/certificados-freedCodeCamp/certificado-react_bskkvp.png",
+        "descripcion":"Certificación de desarrollador, que representa aproximadamente 300 horas de cursos",
+        "enlace": "https://www.freecodecamp.org/certification/luis_corrales/front-end-development-libraries"
+    }
+]

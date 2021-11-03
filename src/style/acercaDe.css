@@ -1,3 +1,6 @@
+.contenedor{
+    height: 100vh;
+}
 
 .nombre-programador{
     font-size: 40px;
@@ -18,7 +21,7 @@
     text-align: center;
 }
 
-.col-foto img{
+.imagen-desarrollador{
     margin-top: 50px;
     width: 250px;
     height: 250px;

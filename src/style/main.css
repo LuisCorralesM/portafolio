@@ -1,5 +1,39 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(221, 216, 216);
-    color: #000;
+    /* background: linear-gradient(90deg, rgba(36, 35, 36, 0.733) 0%, rgba(50, 26, 71, 0.63) 35%, rgba(12, 83, 80, 0.541) 100%); */
+    background-image: url('https://www.gifss.com/agua/burbujas/images/burbujas-03.gif');
+    color: rgb(255, 255, 255);
+}
+
+.titulos-principales{
+    font-size: 30px;
+    font-weight: 900;
+    padding: 0 10px;
+    text-align: center;
+    font-weight: 900;
+    color: #fff;
+    text-shadow: -2px -2px 8px rgb(0, 0, 0), 4px 4px 4px rgb(0, 0, 0);
+}
+
+.cards-con-sombras{
+    border-radius: 4px;
+    box-shadow: 1px 1px 8px #000, -1px -1px 8px #000;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+@media screen and (min-width: 700px) {
+    .grid-cards{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* ANIMACIONES */
+
+@keyframes mover{
+    0%{
+        transform: translate(200%);
+    }
 }

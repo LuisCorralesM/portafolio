@@ -1,0 +1,23 @@
+.freedCodeCamp__titulo{
+    text-align: center;
+    font-weight: 900;
+    padding: 5px 0;
+}
+
+.freedCodeCamp__certificado{
+    margin: 20px;
+    background-color: rgb(0, 0, 0);
+}
+
+.freedCodeCamp__certificado-nombre{
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.freedCodeCamp__certificado-imagen{
+    width: 90%;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+}
+

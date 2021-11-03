@@ -1,0 +1,16 @@
+.contacto{
+    margin: 20px;
+    text-align: center;
+}
+
+.enlacer-contacto{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 700px) {
+    .enlacer-contacto{
+        justify-content: space-around;
+        padding: 10px 35vw;
+    }
+}

@@ -12,9 +12,9 @@ export const Contacto = () => {
 
     return (
         <div className="contacto" id="contacto">
-            <h2 className="contacto-titulo titulos-principales">Contacto</h2>
-            <p>Si está interesado en trabajar conmigo en su próximo proyecto, no dude en contactarme</p>
-            <div className="enlacer-contacto">
+            <h2 className="contacto-titulo titulos-principales z-index">Contacto</h2>
+            <p className="z-index color-negro-oscuro">Si está interesado en trabajar conmigo en su próximo proyecto, no dude en contactarme</p>
+            <div className="enlacer-contacto z-index">
                 {/* btn linkedin */}
                 <div className="btn-linkedin">
                     <a href="https://www.linkedin.com/in/luiscorralesmarin/" target="_blank" rel="noopener noreferrer">
@@ -35,8 +35,8 @@ export const Contacto = () => {
             {/* btn email */}
             <hr />
             <div className="btn-email">
-                <img src="assets/imagenes/Email.png" alt="Email" width="60px" />
-                <p><b>luiscorrales5012@outlook.com</b></p>
+                <img className="z-index" src="assets/imagenes/Email.png" alt="Email" width="60px" />
+                <p><b className="z-index color-negro-oscuro">luiscorrales5012@outlook.com</b></p>
             </div>
         </div>
     )

@@ -1,0 +1,93 @@
+:root {
+    /* posiciones img1 */
+    --p1-b: 0;
+    --p1-l: 0;
+    /* posiciones img2 */
+    --p2-b: 0;
+    --p2-l: 0;
+    /* posiciones img3 */
+    --p3-b: -0;
+    --p3-l: 0;
+    /* posiciones img4 */
+    --p4-b: 0;
+    --p4-l: 0;
+    /* posiciones img5 */
+    --p5-b: 0;
+    --p5-l: 0;
+    /* posiciones img6 */
+    --p6-b: 0;
+    --p6-l: 0;
+    /* posiciones img7 */
+    --p7-b: 0;
+    --p7-l: 0;
+}
+
+.conten-gif {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.logo-imagen {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+@media screen and (min-width: 700px) {
+    .logo-imagen {
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+    }
+}
+
+.imagen1 {
+    position: absolute;
+    display: inline-block;
+    bottom: var(--p1-b);
+    left: var(--p1-l);
+}
+
+.imagen2 {
+    position: absolute;
+    display: inline-block;
+    bottom: var(--p2-b);
+    left: var(--p2-l);
+}
+
+.imagen3 {
+    position: absolute;
+    display: inline-block;
+    bottom: var(--p3-b);
+    left: var(--p3-l);
+}
+
+.imagen4 {
+    position: absolute;
+    display: inline-block;
+    bottom: var(--p4-b);
+    left: var(--p4-l);
+}
+
+.imagen5 {
+    position: absolute;
+    display: inline-block;
+    bottom: var(--p5-b);
+    left: var(--p5-l);
+}
+
+.imagen6 {
+    position: absolute;
+    display: inline-block;
+    bottom: var(--p6-b);
+    left: var(--p6-l);
+}
+
+.imagen7{
+    position: absolute;
+    display: inline-block;
+    bottom: var(--p7-b);
+    left: var(--p7-l);
+}

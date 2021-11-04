@@ -3,6 +3,13 @@
     text-align: center;
 }
 
+.color-negro-oscuro{
+    color: #000;
+    font-weight: 900;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px #fff, -1px -1px 2px #fff;
+}
+
 .enlacer-contacto{
     display: flex;
     justify-content: space-between;

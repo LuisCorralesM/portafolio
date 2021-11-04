@@ -10,7 +10,7 @@ export const Certificados = () => {
                 <div className="freeCodeCamp grid-cards">
                     {
                         certificados.map(el => (
-                            <div className="freedCodeCamp__certificado cards-con-sombras">
+                            <div className="freedCodeCamp__certificado cards-con-sombras z-index">
                                 <h3 className="freedCodeCamp__titulo">FreedCodeCamp</h3>
                                 <h3 className="freedCodeCamp__certificado-nombre">{el.nombre}</h3>
                                 <img src={el.imagen} className="freedCodeCamp__certificado-imagen" alt={el.nombre} />

@@ -1,8 +1,22 @@
 body {
     font-family: 'Roboto', sans-serif;
-    /* background: linear-gradient(90deg, rgba(36, 35, 36, 0.733) 0%, rgba(50, 26, 71, 0.63) 35%, rgba(12, 83, 80, 0.541) 100%); */
-    background-image: url('https://www.gifss.com/agua/burbujas/images/burbujas-03.gif');
     color: rgb(255, 255, 255);
+    background-image: url('https://res.cloudinary.com/academia-geek/image/upload/v1635985890/portafolio/mobil_ttvani.jpg');
+}
+
+@media screen and (min-width: 700px) {
+    body{
+        background-image: url('https://res.cloudinary.com/academia-geek/image/upload/v1635985790/portafolio/784360_bause6.jpg');
+    }
+}
+
+#root{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
 }
 
 .titulos-principales{
@@ -12,7 +26,7 @@ body {
     text-align: center;
     font-weight: 900;
     color: #fff;
-    text-shadow: -2px -2px 8px rgb(0, 0, 0), 4px 4px 4px rgb(0, 0, 0);
+    text-shadow: -2px -2px 8px rgb(0, 0, 0), 4px 4px 4px rgb(0, 0, 0),-2px -2px 8px rgb(0, 0, 0), 4px 4px 4px rgb(0, 0, 0),-2px -2px 8px rgb(0, 0, 0), 4px 4px 4px rgb(0, 0, 0);
 }
 
 .cards-con-sombras{
@@ -31,6 +45,11 @@ body {
 }
 
 /* ANIMACIONES */
+/* Z-index */
+.z-index{
+    position: relative;
+    z-index: 2000;
+}
 
 @keyframes mover{
     0%{

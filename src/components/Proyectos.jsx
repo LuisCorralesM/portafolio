@@ -9,7 +9,7 @@ export const Proyectos = () => {
             {/* proyecto 1 */}
             <div className="grid-cards">
                 {proyectos.map((pro, i) => (
-                    <div key={i} className="contenedor-proyectos cards-con-sombras">
+                    <div key={i} className="contenedor-proyectos cards-con-sombras z-index">
                         <h2 className="nombre-proyecto">{pro.nombre}</h2>
                         <a href={pro.enlace} className="contenr-proyecto1" target="_blank" rel="noopener noreferrer">
                             <div >

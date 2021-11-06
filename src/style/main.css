@@ -2,6 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: rgb(255, 255, 255);
     background-image: url('https://res.cloudinary.com/academia-geek/image/upload/v1635985890/portafolio/mobil_ttvani.jpg');
+    overflow-x: hidden;
 }
 
 @media screen and (min-width: 700px) {
@@ -51,8 +52,26 @@ body {
     z-index: 2000;
 }
 
-@keyframes mover{
-    0%{
-        transform: translate(200%);
+.activarAnimacion{
+    animation: iniciar 2s ease-out;
+}
+
+/* Animacion sombras cards*/
+@keyframes iniciar {
+    0% {
+        box-shadow: 2px 2px 32px rgb(27, 85, 0),2px 2px 32px rgb(81, 255, 0);
+    }
+
+    33% {
+        box-shadow: 2px 2px 32px rgb(1, 80, 76),2px 2px 32px rgb(0, 255, 242);
+    }
+
+    66% {
+        box-shadow: 2px 2px 32px rgb(52, 0, 119),2px 2px 32px rgb(111, 0, 255);
+    }
+
+    99% {
+    box-shadow: 1px 1px 8px #000, -1px -1px 8px #000;
     }
 }
+

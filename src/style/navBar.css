@@ -21,7 +21,7 @@ header {
     height: auto;
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.733) 0%, rgba(34, 12, 54, 0.63) 35%, rgba(5, 83, 79, 0.541) 100%);
     position: fixed;
-    width: 100%;
+    width: 100vw;
 }
 
 header::after {

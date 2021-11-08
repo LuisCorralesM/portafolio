@@ -17,10 +17,6 @@
     text-decoration: none;
 }
 
-.img-proyect1{
-    width: 100%;
-}
-
 .titulo-proyecto1{
     font-size: 20px;
     font-weight: 900;
@@ -35,3 +31,9 @@
     color: #fff;
 }
 
+.freedCodeCamp__proyectos-imagen {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+}

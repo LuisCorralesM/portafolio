@@ -18,13 +18,13 @@ const Navbar = () => {
             <header>
                 <nav id="site-nav" className="site-nav">
                     <ul>
-                        <a href="#proyectos">
+                        <a href="#proyectos" className="scroll">
                             <li className="list-item-nav titulos-principales">Proyectos</li>
                         </a>
-                        <a href="#certificados">
+                        <a href="#certificados" className="scroll">
                             <li className="list-item-nav titulos-principales">Certificados</li>
                         </a>
-                        <a href="#contacto">
+                        <a href="#contacto" className="scroll">
                             <li className="list-item-nav titulos-principales">Contacto</li>
                         </a>
                     </ul>

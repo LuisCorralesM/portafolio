@@ -27,7 +27,7 @@ export const Proyectos = () => {
                         <h2 className="nombre-proyecto">{pro.nombre}</h2>
                         <a href={pro.enlace} className="contenr-proyecto1" target="_blank" rel="noopener noreferrer">
                             <div >
-                                <img className="img-proyect1" src={pro.imagen} alt="" />
+                                <img className="freedCodeCamp__proyectos-imagen" src={pro.imagen} alt="" />
                             </div>
                             <div className="descripcion-proyecto">
                                 <h1 className="titulo-proyecto1">{pro.encabezado}</h1>

@@ -1,5 +1,12 @@
 [
     {
+        "nombre":"Marke Place",
+        "imagen":"https://res.cloudinary.com/academia-geek/image/upload/v1636397786/marke-place_uziirm.png",
+        "encabezado":"Mi Tienda",
+        "descripcion":"Es un marke place que busca conectar el mercado local con el consumidor mas cercano",
+        "enlace": "https://markeplace-mitienda.web.app/#/auth/landingpage"
+    },
+    {
         "nombre":"Daily Bits",
         "imagen":"https://res.cloudinary.com/academia-geek/image/upload/v1635530402/app-programacion_uha8nv.png",
         "encabezado":"Repasa HTML5,CSS3 y JS",

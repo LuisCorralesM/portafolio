@@ -115,6 +115,10 @@ header::after {
     transform: translateY(3px) translateX(-1px);
 }
 
+.scroll{
+    scroll-behavior: smooth;
+}
+
 @media (min-width:700px) {
     .menu-toggle {
         display: none;
